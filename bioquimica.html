@@ -13,33 +13,138 @@
         </nav>
 
         <section id="monosacáridos" class="biochem-section">
-            <h2>Monosacáridos: Estructura y Función</h2>
-            <div class="info-card">
+            <div class="seccion">
+                <h2>Monosacáridos: Estructura y Función</h2>
                 <h3>Características Principales</h3>
                 <ul>
-                    <li>Fórmula molecular general: (CH2O)n</li>
-                    <li>Estructura cíclica vs. lineal</li>
-                    <li>Clasificación por número de carbonos</li>
+                    <li>Fórmula molecular general: (CH2O)n, donde n ≥ 3</li>
+                    <li>Son los carbohidratos más simples (no se pueden hidrolizar)</li>
+                    <li>Tienen sabor dulce</li>
+                    <li>Son solubles en agua</li>
+                    <li>Pueden actuar como agentes reductores</li>
+                    <li>Presentan isomería óptica debido a sus carbonos quirales</li>
                 </ul>
-
-                <h3>Tipos Principales</h3>
-                <div class="molecule-grid">
-                    <div class="molecule-card">
-                        <h4>Glucosa (C₆H₁₂O₆)</h4>
-                        <img src="glucosa.png" alt="Estructura de la glucosa">
-                        <ul>
-                            <li>Principal fuente de energía celular</li>
-                            <li>Forma α y β en solución</li>
-                            <li>Metabolismo vía glucólisis</li>
-                        </ul>
+                
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            Estructura Lineal
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>La estructura lineal de los monosacáridos presenta:</p>
+                            <ul>
+                                <li>Cadena abierta de carbonos numerados de arriba hacia abajo</li>
+                                <li>Grupo funcional característico:
+                                    <ul>
+                                        <li>Aldosas: grupo aldehído (-CHO) en el C1</li>
+                                        <li>Cetosas: grupo cetona (C=O) generalmente en el C2</li>
+                                    </ul>
+                                </li>
+                                <li>Grupos hidroxilo (-OH) distribuidos en la cadena</li>
+                                <li>Último carbono siempre tiene un grupo -CH2OH</li>
+                                <li>Proyección de Fischer: representación bidimensional estándar</li>
+                            </ul>
+                            <img src="estructura_lineal.jpg" alt="Estructura lineal de glucosa" class="imagen-bioquimica">
+                            <p class="imagen-descripcion">Ejemplo: Estructura lineal de la D-glucosa en proyección de Fischer</p>
+                        </div>
                     </div>
-                    <!-- Agregar más moléculas -->
-                </div>
 
-                <h3>Reacciones Bioquímicas</h3>
-                <div class="reaction-diagram">
-                    <!-- Diagramas de reacciones -->
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            Estructura Cíclica
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>La estructura cíclica (hemiacetal o hemicetal) se forma cuando:</p>
+                            <ul>
+                                <li>El grupo aldehído o cetona reacciona con un -OH de la misma molécula</li>
+                                <li>Tipos de anillos:
+                                    <ul>
+                                        <li>Furanosa: anillo de 5 miembros</li>
+                                        <li>Piranosa: anillo de 6 miembros (más estable)</li>
+                                    </ul>
+                                </li>
+                                <li>Características importantes:
+                                    <ul>
+                                        <li>Carbono anomérico: nuevo centro quiral</li>
+                                        <li>Anómeros α y β: dos formas posibles</li>
+                                        <li>Mutarrotación: equilibrio entre formas α y β en solución</li>
+                                    </ul>
+                                </li>
+                                <li>Conformaciones del anillo:
+                                    <ul>
+                                        <li>Silla (más estable)</li>
+                                        <li>Bote</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <img src="estructura_ciclica.jpg" alt="Estructura cíclica de glucosa" class="imagen-bioquimica" width="400" height="300">
+                            <p class="imagen-descripcion">Formación del anillo y anómeros α/β de la D-glucosa</p>
+                        </div>
+                    </div>
                 </div>
+                
+                <h3>Clasificación por número de carbonos</h3>
+                <p>Los monosacáridos se clasifican según el número de átomos de carbono en su cadena:</p>
+                <div class="tabla-container">
+                    <table class="tabla-clasificacion">
+                        <tr>
+                            <th>Nombre</th>
+                            <th>N° Carbonos</th>
+                            <th>Ejemplos</th>
+                            <th>Importancia Biológica</th>
+                        </tr>
+                        <tr>
+                            <td>Triosas</td>
+                            <td>3</td>
+                            <td>Gliceraldehído, Dihidroxiacetona</td>
+                            <td>Intermediarios en la glucólisis</td>
+                        </tr>
+                        <tr>
+                            <td>Tetrosas</td>
+                            <td>4</td>
+                            <td>Eritrosa, Treosa</td>
+                            <td>Intermediarios metabólicos</td>
+                        </tr>
+                        <tr>
+                            <td>Pentosas</td>
+                            <td>5</td>
+                            <td>Ribosa, Desoxirribosa</td>
+                            <td>Componentes de ácidos nucleicos</td>
+                        </tr>
+                        <tr>
+                            <td>Hexosas</td>
+                            <td>6</td>
+                            <td>Glucosa, Fructosa, Galactosa</td>
+                            <td>Principal fuente de energía</td>
+                        </tr>
+                        <tr>
+                            <td>Heptosas</td>
+                            <td>7</td>
+                            <td>Sedoheptulosa</td>
+                            <td>Ciclo de las pentosas fosfato</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <h3>Tipos Principales</h3>
+            <div class="molecule-grid">
+                <div class="molecule-card">
+                    <h4>Glucosa (C₆H₁₂O₆)</h4>
+                    <img src="glucosa.png" alt="Estructura de la glucosa" class="imagen-bioquimica" width="300" height="200">
+                    <ul>
+                        <li>Principal fuente de energía celular</li>
+                        <li>Forma α y β en solución</li>
+                        <li>Metabolismo vía glucólisis</li>
+                    </ul>
+                </div>
+                <!-- Agregar más moléculas -->
+            </div>
+
+            <h3>Reacciones Bioquímicas</h3>
+            <div class="reaction-diagram">
+                <!-- Diagramas de reacciones -->
             </div>
         </section>
 
@@ -274,88 +379,127 @@
                     <li>Estructura jerárquica (primaria a cuaternaria)</li>
                 </ul>
 
-                <h3>Aminoácidos Esenciales</h3>
-                <div class="molecule-grid">
-                    <div class="molecule-card">
-                        <h4>Histidina (His)</h4>
-                        <img src="histidina.jpeg" alt="Estructura de la Histidina">
-                        <ul>
-                            <li>Grupo imidazol</li>
-                            <li>pKa = 6.0</li>
-                            <li>Función en catálisis enzimática</li>
-                        </ul>
+                <h3>Aminoácidos</h3>
+                <div class="amino-groups">
+                    <div class="amino-category">
+                        <h4>Aminoácidos Esenciales</h4>
+                        <div class="molecule-grid">
+                            <div class="molecule-card">
+                                <h4>Histidina (His)</h4>
+                                <img src="histidina.jpeg" alt="Estructura de la Histidina">
+                                <ul>
+                                    <li>Grupo imidazol</li>
+                                    <li>pKa = 6.0</li>
+                                    <li>Función en catálisis enzimática</li>
+                                </ul>
+                            </div>
+                            <div class="molecule-card">
+                                <h4>Isoleucina (Ile)</h4>
+                                <img src="isoleucina.png" alt="Estructura de la Isoleucina">
+                                <ul>
+                                    <li>Aminoácido ramificado</li>
+                                    <li>Hidrofóbico</li>
+                                    <li>Importante en estructura proteica</li>
+                                </ul>
+                            </div>
+                            <div class="molecule-card">
+                                <h4>Leucina (Leu)</h4>
+                                <img src="leucina.jpeg" alt="Estructura de la Leucina">
+                                <ul>
+                                    <li>Aminoácido ramificado</li>
+                                    <li>Señalización celular</li>
+                                    <li>Síntesis proteica muscular</li>
+                                </ul>
+                            </div>
+                            <div class="molecule-card">
+                                <h4>Lisina (Lys)</h4>
+                                <img src="lisina.png" alt="Estructura de la Lisina">
+                                <ul>
+                                    <li>Carga positiva a pH fisiológico</li>
+                                    <li>Modificaciones post-traduccionales</li>
+                                    <li>Interacción con ADN</li>
+                                </ul>
+                            </div>
+                            <div class="molecule-card">
+                                <h4>Metionina (Met)</h4>
+                                <img src="metionina.png" alt="Estructura de la Metionina">
+                                <ul>
+                                    <li>Contiene azufre</li>
+                                    <li>Inicio de síntesis proteica</li>
+                                    <li>Donador de grupos metilo</li>
+                                </ul>
+                            </div>
+                            <div class="molecule-card">
+                                <h4>Fenilalanina (Phe)</h4>
+                                <img src="fenilalanina.png" alt="Estructura de la Fenilalanina">
+                                <ul>
+                                    <li>Anillo aromático</li>
+                                    <li>Precursor de tirosina</li>
+                                    <li>Hidrofóbico</li>
+                                </ul>
+                            </div>
+                            <div class="molecule-card">
+                                <h4>Treonina (Thr)</h4>
+                                <img src="Treonina.png" alt="Estructura de la Treonina">
+                                <ul>
+                                    <li>Grupo hidroxilo</li>
+                                    <li>Fosforilación</li>
+                                    <li>Glicosilación</li>
+                                </ul>
+                            </div>
+                            <div class="molecule-card">
+                                <h4>Triptófano (Trp)</h4>
+                                <img src="triptofano.png" alt="Estructura del Triptófano">
+                                <ul>
+                                    <li>Indol aromático</li>
+                                    <li>Precursor de serotonina</li>
+                                    <li>Fluorescencia intrínseca</li>
+                                </ul>
+                            </div>
+                            <div class="molecule-card">
+                                <h4>Valina (Val)</h4>
+                                <img src="valina.png" alt="Estructura de la Valina">
+                                <ul>
+                                    <li>Aminoácido ramificado</li>
+                                    <li>Metabolismo energético</li>
+                                    <li>Estructura proteica</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="molecule-card">
-                        <h4>Isoleucina (Ile)</h4>
-                        <img src="isoleucina.png" alt="Estructura de la Isoleucina">
-                        <ul>
-                            <li>Aminoácido ramificado</li>
-                            <li>Hidrofóbico</li>
-                            <li>Importante en estructura proteica</li>
-                        </ul>
-                    </div>
-                    <div class="molecule-card">
-                        <h4>Leucina (Leu)</h4>
-                        <img src="leucina.jpeg" alt="Estructura de la Leucina">
-                        <ul>
-                            <li>Aminoácido ramificado</li>
-                            <li>Señalización celular</li>
-                            <li>Síntesis proteica muscular</li>
-                        </ul>
-                    </div>
-                    <div class="molecule-card">
-                        <h4>Lisina (Lys)</h4>
-                        <img src="lisina.png" alt="Estructura de la Lisina">
-                        <ul>
-                            <li>Carga positiva a pH fisiológico</li>
-                            <li>Modificaciones post-traduccionales</li>
-                            <li>Interacción con ADN</li>
-                        </ul>
-                    </div>
-                    <div class="molecule-card">
-                        <h4>Metionina (Met)</h4>
-                        <img src="metionina.png" alt="Estructura de la Metionina">
-                        <ul>
-                            <li>Contiene azufre</li>
-                            <li>Inicio de síntesis proteica</li>
-                            <li>Donador de grupos metilo</li>
-                        </ul>
-                    </div>
-                    <div class="molecule-card">
-                        <h4>Fenilalanina (Phe)</h4>
-                        <img src="fenilalanina.png" alt="Estructura de la Fenilalanina">
-                        <ul>
-                            <li>Anillo aromático</li>
-                            <li>Precursor de tirosina</li>
-                            <li>Hidrofóbico</li>
-                        </ul>
-                    </div>
-                    <div class="molecule-card">
-                        <h4>Treonina (Thr)</h4>
-                        <img src="Treonina.png" alt="Estructura de la Treonina">
-                        <ul>
-                            <li>Grupo hidroxilo</li>
-                            <li>Fosforilación</li>
-                            <li>Glicosilación</li>
-                        </ul>
-                    </div>
-                    <div class="molecule-card">
-                        <h4>Triptófano (Trp)</h4>
-                        <img src="triptofano.png" alt="Estructura del Triptófano">
-                        <ul>
-                            <li>Indol aromático</li>
-                            <li>Precursor de serotonina</li>
-                            <li>Fluorescencia intrínseca</li>
-                        </ul>
-                    </div>
-                    <div class="molecule-card">
-                        <h4>Valina (Val)</h4>
-                        <img src="valina.png" alt="Estructura de la Valina">
-                        <ul>
-                            <li>Aminoácido ramificado</li>
-                            <li>Metabolismo energético</li>
-                            <li>Estructura proteica</li>
-                        </ul>
+
+                    <div class="amino-category">
+                        <h4>Aminoácidos No Esenciales</h4>
+                        <div class="molecule-grid">
+                            <div class="molecule-card">
+                                <h4>Alanina (Ala)</h4>
+                                <img src="alanina.png" alt="Estructura de la Alanina">
+                                <ul>
+                                    <li>Pequeño y no polar</li>
+                                    <li>Gluconeogénesis</li>
+                                    <li>Ciclo glucosa-alanina</li>
+                                </ul>
+                            </div>
+                            <div class="molecule-card">
+                                <h4>Arginina (Arg)</h4>
+                                <img src="arginina.jpg" alt="Estructura de la Arginina">
+                                <ul>
+                                    <li>Carga positiva</li>
+                                    <li>Ciclo de la urea</li>
+                                    <li>Síntesis de óxido nítrico</li>
+                                </ul>
+                            </div>
+                            <div class="molecule-card">
+                                <h4>Asparagina (Asn)</h4>
+                                <img src="asparagina.jpeg" alt="Estructura de la Asparagina">
+                                <ul>
+                                    <li>Grupo amida</li>
+                                    <li>N-glicosilación</li>
+                                    <li>Transporte de NH3</li>
+                                </ul>
+                            </div>
+                            <!-- Continuar con los demás aminoácidos no esenciales -->
+                        </div>
                     </div>
                 </div>
 
@@ -379,9 +523,10 @@
                     <div class="level-card">
                         <h4>Estructura Cuaternaria</h4>
                         <p>Asociación de múltiples cadenas polipeptídicas.</p>
-                        <img src="estructura_cuaternaria.jpg" alt="Estructura cuaternaria de proteínas" width="800" height="600">
+                        <img src="estructura_cuaternaria.jpg" alt="Estructura cuaternaria de proteínas" width="400" height="200">
                     </div>
-                </div>
+                    
+                   
 
                 <h3>Metabolismo y Síntesis</h3>
                 <div class="reaction-diagram">
@@ -453,5 +598,6 @@
             </div>
         </section>
     </div>
+    <script src="script.js"></script>
 </body>
 </html> 
